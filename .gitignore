@@ -12,6 +12,4 @@ run
 *.sw*
 *.un~
 
-.vscode
-
 package-lock.json
