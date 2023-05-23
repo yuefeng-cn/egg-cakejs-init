@@ -8,7 +8,11 @@ import { Strategy } from 'passport';
 module.exports = (app: Application) => {
   return new class extends Strategy {
     async authenticate(req: any, options?: any) {
-      this.success({ id: 666, name: '虚拟用户666' });
+      if (req.query.id) {
+        this.success({ id: req.query.id, name: req.query.name });
+      } else {
+        this.fail();
+      }
     }
   }();
 };

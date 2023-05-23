@@ -30,7 +30,6 @@ export default (appInfo: EggAppInfo) => {
     }
   }
 
-  config.defaultPassport = [];
   config.userPassport = ['user'];
 
   return config;
