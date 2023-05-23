@@ -1,0 +1,31 @@
+{
+  "name": "egg-cakejs-init",
+  "version": "1.0.0",
+  "description": "",
+  "egg": {
+    "typescript": true,
+    "declarations": true,
+    "framework": "egg-cakejs"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "egg-cakejs": "^1.0.8",
+    "egg": "^2.6.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "@types/mocha": "^2.2.40",
+    "egg-bin": "^4.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-egg": "^8.0.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.0.0"
+  }
+}
