@@ -1,6 +1,6 @@
 {
   "name": "egg-cakejs-boilerplate",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "boilerplate for egg-cakejs",
   "scripts": {
     "test": "npm run test-boilerplate",
