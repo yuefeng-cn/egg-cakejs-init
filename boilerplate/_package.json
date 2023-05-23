@@ -16,7 +16,7 @@
     "clean": "./node_modules/egg-bin/bin/ets.js clean"
   },
   "dependencies": {
-    "egg-cakejs": "^1.0.8",
+    "egg-cakejs": "^1.0.12",
     "egg": "^2.6.1",
     "reflect-metadata": "^0.1.13"
   },
