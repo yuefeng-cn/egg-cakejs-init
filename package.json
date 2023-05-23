@@ -12,10 +12,10 @@
     "build": "npm run clean && egg-init dist --force --silent --template=./",
     "install-deps": "cd dist && npm i"
   },
-  "homepage": "",
+  "homepage": "https://github.com/yuefengNiu/egg-cakejs-init.git",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/yuefengNiu/egg-cakejs-init.git"
   },
   "author": "",
   "devDependencies": {
