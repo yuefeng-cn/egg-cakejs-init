@@ -9,7 +9,8 @@
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "clean": "rm -rf dist",
     "build": "npm run clean && egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && npm i"
+    "install-deps": "cd dist && npm i",
+    "pub": "npm version patch && npm publish"
   },
   "homepage": "https://github.com/yuefengNiu/egg-cakejs-init.git",
   "repository": {
