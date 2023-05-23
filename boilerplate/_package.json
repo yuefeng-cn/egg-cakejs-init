@@ -1,19 +1,18 @@
 {
-  "name": "egg-cakejs-init",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
+  "private": true,
   "egg": {
     "typescript": true,
     "declarations": true,
     "framework": "egg-cakejs"
   },
-  "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev",
-    "debug": "egg-bin debug"
+    "debug": "egg-bin debug",
+    "test": "npm run dev"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "egg-cakejs": "^1.0.8",
     "egg": "^2.6.1",
@@ -27,5 +26,18 @@
     "eslint-config-egg": "^8.0.0",
     "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "^3.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "eslintIgnore": ["coverage"],
+  "author": "{{author}}",
+  "license": "MIT"
 }
