@@ -1,9 +1,9 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES6",
     "module": "commonjs",
-    "lib": ["es2022", "dom", "esnext"],
+    "lib": ["es6", "dom", "esnext"],
     "types": ["reflect-metadata", "mocha", "egg"],
     "strict": true,
     "noImplicitAny": false,
