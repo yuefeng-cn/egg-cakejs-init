@@ -3,6 +3,7 @@
   "version": "1.0.17",
   "description": "boilerplate for egg-cakejs",
   "scripts": {
+    "format": "prettier --write ./**/*.ts --config .prettierrc.yaml",
     "test": "npm run test-boilerplate",
     "ci": "npm run lint && npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "egg-init": "^2.3.1",
     "eslint": "^8.34.0",
-    "eslint-config-egg": "^12.1.0"
+    "eslint-config-egg": "^12.1.0",
+    "prettier": "^2.8.8"
   }
 }

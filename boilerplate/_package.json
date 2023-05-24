@@ -9,6 +9,7 @@
     "framework": "egg-cakejs"
   },
   "scripts": {
+    "format": "prettier --write ./**/*.ts --config .prettierrc.yaml",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run dev",
@@ -16,7 +17,7 @@
     "clean": "./node_modules/egg-bin/bin/ets.js clean"
   },
   "dependencies": {
-    "egg-cakejs": "^1.0.16",
+    "egg-cakejs": "^1.0.17",
     "egg": "^2.6.1",
     "reflect-metadata": "^0.1.13"
   },
