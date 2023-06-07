@@ -9,6 +9,8 @@
     "framework": "egg-cakejs"
   },
   "scripts": {
+    "start": "NODE_ENV=prod EGG_SERVER_ENV=prod egg-scripts start --daemon --ignore-stderr --port=9001 --env=prod --workers=8 --title={{name}}",
+    "stop": "egg-scripts stop",
     "format": "prettier --write ./**/*.ts --config .prettierrc.yaml",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
@@ -19,6 +21,7 @@
   "dependencies": {
     "egg-cakejs": "^1.0.21",
     "egg": "^2.6.1",
+    "egg-scripts": "^2.17.0",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

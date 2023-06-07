@@ -7,7 +7,7 @@ export default class TSHomeController extends Controller {
 	@Inject('test')
   private testService: TestService;
 
-	@Action({method: 'get', path: '/index'})
+	@Action({method: 'get', path: '/'})
 	public async index() {
 		const data = await this.testService.get(123);
 		this.ctx.body = `hi, ${data.name}`;
