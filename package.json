@@ -1,6 +1,6 @@
 {
   "name": "egg-cakejs-boilerplate",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "boilerplate for egg-cakejs",
   "scripts": {
     "format": "prettier --write ./**/*.ts --config .prettierrc.yaml",
